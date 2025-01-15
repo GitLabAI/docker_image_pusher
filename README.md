@@ -78,3 +78,15 @@ xiaoyaliu/alist
 修改/.github/workflows/docker.yaml文件
 添加 schedule即可定时执行(此处cron使用UTC时区)
 ![](doc/定时执行.png)
+
+### 添加镜像
+在github中的项目文件images.txt中添加镜像即可(也可以通过git远程提交镜像-D:\IntelliJ_IDEA_Project\src\StudyJava\通过git远程连接github代码.md), 提交后在Actions自动构建
+![img.png](img.png)
+![img_1.png](img_1.png)
+
+### 拉取镜像
+在阿里云找到docker pull 镜像的方法
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+> docker pull crpi-ilhnvgd298c02yh5.cn-hangzhou.personal.cr.aliyuncs.com/itlong-images/mysql:[镜像版本号]
